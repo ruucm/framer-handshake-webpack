@@ -9,15 +9,16 @@ console.log(pMap1);
 
 import Toggle from "https://framer.com/m/Toggle-B5iT.js@52zFaz7rN7Bt3pjtYxWH";
 import PRButton from "https://framer.com/m/PR-Button-6Z6o.js@bEDykX6ACHr8WBqttZhQ"
-
+import PRSideMenuItem from "https://framer.com/m/PR-Side-Menu-Item-Wtl9.js@JatH0FJHSRwGmuuhDihz"
 
 
 const App = () => {
   return (
     <div>
-      Hello Framer Handshake.
+      Hello Framer Handshake. 👋
       <Toggle />
       <PRButton />
+      <PRSideMenuItem />
     </div>
   );
 };
