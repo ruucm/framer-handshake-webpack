@@ -1,0 +1,22 @@
+node_modules
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+yarn.lock
+/js-safe-annotated
+package-lock.json
+/build
+.vscode
+.idea
+
+# misc files
+.DS_Store
+client/lib/angular-config
+.env
+cypress.env.json
+
+yarn-error.log
+
+.next
