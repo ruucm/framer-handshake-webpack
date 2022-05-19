@@ -10,7 +10,7 @@ console.log(pMap1);
 import Toggle from "https://framer.com/m/Toggle-B5iT.js@52zFaz7rN7Bt3pjtYxWH";
 import PRButton from "https://framer.com/m/PR-Button-6Z6o.js@bEDykX6ACHr8WBqttZhQ"
 import PRSideMenuItem from "https://framer.com/m/PR-Side-Menu-Item-Wtl9.js@JatH0FJHSRwGmuuhDihz"
-
+import SendPayslipsNowModal from "https://framer.com/m/Send-payslips-now-Modal-W377.js@m8idfOpxIH0ANAqyn4Aw"
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
       <Toggle />
       <PRButton />
       <PRSideMenuItem />
+      <SendPayslipsNowModal />
     </div>
   );
 };
