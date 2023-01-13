@@ -4,9 +4,7 @@ node_modules
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
-yarn.lock
 /js-safe-annotated
-package-lock.json
 /build
 .vscode
 .idea

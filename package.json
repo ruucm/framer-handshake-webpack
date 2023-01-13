@@ -19,6 +19,7 @@
     "@babel/plugin-transform-runtime": "^7.17.12",
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-react": "^7.16.7",
+    "@babel/runtime": "^7.20.7",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
@@ -31,12 +32,12 @@
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0",
-    "webpack-dev-server": "^4.9.0"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
     "framer": "^2.2.1",
-    "framer-motion": "^7.6.15",
+    "framer-motion": "^8.4.2",
     "popmotion": "^11.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
