@@ -59,7 +59,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
       onTapStart: () => setGestureState({ isPressed: true }),
       onTap: () => setGestureState({ isPressed: false }),
       onTapCancel: () => setGestureState({ isPressed: false }),
-      className: cx("framer-hz9b3", classNames),
+      className: cx("framer-kUq83", classNames),
       style: {
         display: "contents",
         pointerEvents: pointerEvents !== null && pointerEvents !== void 0 ? pointerEvents : undefined,
@@ -71,7 +71,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
         layoutDependency: layoutDependency,
         layoutId: "xiGuWN4uU",
         ref: ref,
-        style: { backgroundColor: "rgb(255, 204, 204)", ...style },
+        style: { backgroundColor: "rgb(204, 224, 255)", ...style },
         transition: transition,
         children: /*#__PURE__*/ _jsx(RichText, {
           __fromCanvasComponent: true,
@@ -96,13 +96,13 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
   })
 })
 const css = [
-  '.framer-hz9b3 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
+  '.framer-kUq83 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
   "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }",
-  ".framer-hz9b3 * { box-sizing: border-box; }",
-  ".framer-hz9b3 .framer-35ht8p { display: block; }",
-  ".framer-hz9b3 .framer-mxz3uw { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 10px 10px 10px 10px; position: relative; width: min-content; }",
-  ".framer-hz9b3 .framer-1ltwh8a { flex: none; height: auto; position: relative; white-space: pre; width: auto; }",
-  "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-hz9b3 .framer-mxz3uw { gap: 0px; } .framer-hz9b3 .framer-mxz3uw > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-hz9b3 .framer-mxz3uw > :first-child { margin-left: 0px; } .framer-hz9b3 .framer-mxz3uw > :last-child { margin-right: 0px; } }",
+  ".framer-kUq83 * { box-sizing: border-box; }",
+  ".framer-kUq83 .framer-35ht8p { display: block; }",
+  ".framer-kUq83 .framer-mxz3uw { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 10px 10px 10px 10px; position: relative; width: min-content; }",
+  ".framer-kUq83 .framer-1ltwh8a { flex: none; height: auto; position: relative; white-space: pre; width: auto; }",
+  "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-kUq83 .framer-mxz3uw { gap: 0px; } .framer-kUq83 .framer-mxz3uw > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-kUq83 .framer-mxz3uw > :first-child { margin-left: 0px; } .framer-kUq83 .framer-mxz3uw > :last-child { margin-right: 0px; } }",
 ]
 /**
  * This is a generated Framer component.
@@ -125,10 +125,10 @@ export const __FramerMetadata__ = {
       name: "FramerqXgzhfFR2",
       slots: [],
       annotations: {
-        framerIntrinsicWidth: "70",
-        framerVariables: '{"ATWq321bU":"title"}',
-        framerCanvasComponentVariantDetails: '{"propertyName":"variant","data":{"default":{"layout":["auto","auto"]}}}',
         framerContractVersion: "1",
+        framerIntrinsicWidth: "70",
+        framerCanvasComponentVariantDetails: '{"propertyName":"variant","data":{"default":{"layout":["auto","auto"]}}}',
+        framerVariables: '{"ATWq321bU":"title"}',
         framerIntrinsicHeight: "39",
       },
     },

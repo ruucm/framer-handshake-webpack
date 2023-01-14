@@ -1,6 +1,6 @@
 {
-  "https://framer.com/m/Button-KYsw.js": { "resolved": "https://framerusercontent.com/modules/BNGMh2t5DNmqq1vrkPLC/R3ERI6oUvkjLUJvR9pP3/qXgzhfFR2.js", "integrity": "sha512-5xPdzY8gSLaPQyBGW9q4PDv5X3/87MUuULyCfkhbLQ1aZwvZ94UNrXqUiGtqch273V4WPLRDFytXP38D8aApiw==", "contentType": "text/javascript; charset=UTF-8" },
-  "https://framer.com/m/Card-I9LQ.js": { "resolved": "https://framerusercontent.com/modules/BBmK1bDM3AtZ8xnNHDtT/dPc1Xz2owmUtyOL6qUc3/Wr9Xt9HWr.js", "integrity": "sha512-/WC6rr8Q95DoEbByh8QyGCBbuVBwA8tz61uiRLtHRzoiNesIFT0IlrMujp3pW5LfBIA5K7THnE8MwBn6KcGm8A==", "contentType": "text/javascript; charset=UTF-8" },
-  "https://framerusercontent.com/modules/BNGMh2t5DNmqq1vrkPLC/R3ERI6oUvkjLUJvR9pP3/qXgzhfFR2.js": { "integrity": "sha512-5xPdzY8gSLaPQyBGW9q4PDv5X3/87MUuULyCfkhbLQ1aZwvZ94UNrXqUiGtqch273V4WPLRDFytXP38D8aApiw==", "contentType": "text/javascript; charset=UTF-8" },
+  "https://framer.com/m/Button-KYsw.js": { "resolved": "https://framerusercontent.com/modules/BNGMh2t5DNmqq1vrkPLC/5zb4dObppCar3L7psvhe/qXgzhfFR2.js", "integrity": "sha512-uUEB1yExCzIP3X5FBJvhDhG53IAKLkzy0TQyXVRFdSyztZV9bpzSh7XwUS5ewFc0hZRjxYxryccaqccWltgmBw==", "contentType": "text/javascript; charset=UTF-8" },
+  "https://framer.com/m/Card-I9LQ.js": { "resolved": "https://framerusercontent.com/modules/BBmK1bDM3AtZ8xnNHDtT/wDQlsRQtI1JFgYLhDhDF/Wr9Xt9HWr.js", "integrity": "sha512-wlPBxLcc+Zexg7j3VIvUgGQZG0FxonRlyvX1y82/EPG+fhMxujl6KTAQWuwPceGVo8fAujgfCBQZCTpbkVEgTg==", "contentType": "text/javascript; charset=UTF-8" },
+  "https://framerusercontent.com/modules/BNGMh2t5DNmqq1vrkPLC/5zb4dObppCar3L7psvhe/qXgzhfFR2.js": { "integrity": "sha512-uUEB1yExCzIP3X5FBJvhDhG53IAKLkzy0TQyXVRFdSyztZV9bpzSh7XwUS5ewFc0hZRjxYxryccaqccWltgmBw==", "contentType": "text/javascript; charset=UTF-8" },
   "version": 1
 }

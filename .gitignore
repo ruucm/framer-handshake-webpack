@@ -17,3 +17,5 @@ cypress.env.json
 yarn-error.log
 
 .next
+
+.eslintcache
