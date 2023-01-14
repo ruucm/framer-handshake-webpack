@@ -26,8 +26,9 @@
         "pathGroupsExcludedImportTypes": ["builtin"]
       }
     ],
-    "react/display-name": "warn",
-    "react/prop-types": "warn"
+    "react/display-name": "off",
+    "react/prop-types": "off",
+    "@typescript-eslint/no-unused-vars": "off"
   },
   "env": {
     "browser": true,
