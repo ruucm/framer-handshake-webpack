@@ -3,8 +3,8 @@ import { jsx as _jsx } from "react/jsx-runtime"
 import { addFonts, addPropertyControls, ControlType, cx, RichText, useVariantState, withCSS } from "framer"
 import { LayoutGroup, motion } from "framer-motion"
 import * as React from "react"
-const cycleOrder = ["qn_wVNcPD"]
-const variantClassNames = { qn_wVNcPD: "framer-v-1ygbj9a" }
+const cycleOrder = ["xiGuWN4uU"]
+const variantClassNames = { xiGuWN4uU: "framer-v-mxz3uw" }
 function addPropertyOverrides(overrides, ...variants) {
   const nextOverrides = {}
   variants === null || variants === void 0
@@ -35,8 +35,8 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
     width,
     height,
     layoutId,
-    variant: outerVariant = "qn_wVNcPD",
-    title: haXn00h0k = "Hey",
+    variant: outerVariant = "xiGuWN4uU",
+    title: ATWq321bU = "Button",
     ...restProps
   },
   ref
@@ -44,7 +44,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
   const outerVariantId = humanReadableVariantMap[outerVariant]
   const variant = outerVariantId || outerVariant
   const { baseVariant, classNames, gestureVariant, setGestureState, setVariant, transition, variants } =
-    useVariantState({ cycleOrder, defaultVariant: "qn_wVNcPD", transitions, variant, variantClassNames })
+    useVariantState({ cycleOrder, defaultVariant: "xiGuWN4uU", transitions, variant, variantClassNames })
   const layoutDependency = variants.join("-") + restProps.layoutDependency
   const defaultLayoutId = useRandomID()
   const { pointerEvents, ...style } = externalStyle
@@ -59,32 +59,34 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
       onTapStart: () => setGestureState({ isPressed: true }),
       onTap: () => setGestureState({ isPressed: false }),
       onTapCancel: () => setGestureState({ isPressed: false }),
-      className: cx("framer-vkO53", classNames),
+      className: cx("framer-hbMmu", classNames),
       style: {
         display: "contents",
         pointerEvents: pointerEvents !== null && pointerEvents !== void 0 ? pointerEvents : undefined,
       },
       children: /*#__PURE__*/ _jsx(motion.div, {
         ...restProps,
-        className: cx("framer-1ygbj9a", className),
+        className: cx("framer-mxz3uw", className),
         "data-framer-name": "Variant 1",
         layoutDependency: layoutDependency,
-        layoutId: "qn_wVNcPD",
+        layoutId: "xiGuWN4uU",
         ref: ref,
-        style: { backgroundColor: "rgb(183, 53, 222)", ...style },
+        style: { backgroundColor: "rgb(204, 221, 51)", ...style },
         transition: transition,
         children: /*#__PURE__*/ _jsx(RichText, {
           __fromCanvasComponent: true,
-          children: /*#__PURE__*/ _jsx(React.Fragment, { children: /*#__PURE__*/ _jsx(motion.p, { children: "Hey" }) }),
-          className: "framer-1u3f47s",
+          children: /*#__PURE__*/ _jsx(React.Fragment, {
+            children: /*#__PURE__*/ _jsx(motion.p, { children: "Button" }),
+          }),
+          className: "framer-1ltwh8a",
           layoutDependency: layoutDependency,
-          layoutId: "DLzpoWDf4",
+          layoutId: "se7XlG6sn",
           style: {
             "--framer-link-text-color": "rgb(0, 153, 255)",
             "--framer-link-text-decoration": "underline",
             "--framer-paragraph-spacing": "0px",
           },
-          text: haXn00h0k,
+          text: ATWq321bU,
           transition: transition,
           verticalAlignment: "top",
           withExternalLayout: true,
@@ -94,44 +96,44 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
   })
 })
 const css = [
-  '.framer-vkO53 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
+  '.framer-hbMmu [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
   "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }",
-  ".framer-vkO53 * { box-sizing: border-box; }",
-  ".framer-vkO53 .framer-5vkim3 { display: block; }",
-  ".framer-vkO53 .framer-1ygbj9a { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 10px 20px 10px 20px; position: relative; width: min-content; }",
-  ".framer-vkO53 .framer-1u3f47s { flex: none; height: auto; position: relative; white-space: pre; width: auto; }",
-  "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-vkO53 .framer-1ygbj9a { gap: 0px; } .framer-vkO53 .framer-1ygbj9a > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-vkO53 .framer-1ygbj9a > :first-child { margin-left: 0px; } .framer-vkO53 .framer-1ygbj9a > :last-child { margin-right: 0px; } }",
+  ".framer-hbMmu * { box-sizing: border-box; }",
+  ".framer-hbMmu .framer-35ht8p { display: block; }",
+  ".framer-hbMmu .framer-mxz3uw { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 10px 10px 10px 10px; position: relative; width: min-content; }",
+  ".framer-hbMmu .framer-1ltwh8a { flex: none; height: auto; position: relative; white-space: pre; width: auto; }",
+  "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-hbMmu .framer-mxz3uw { gap: 0px; } .framer-hbMmu .framer-mxz3uw > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-hbMmu .framer-mxz3uw > :first-child { margin-left: 0px; } .framer-hbMmu .framer-mxz3uw > :last-child { margin-right: 0px; } }",
 ]
 /**
  * This is a generated Framer component.
  * @framerIntrinsicHeight 39
  * @framerIntrinsicWidth 70
  * @framerCanvasComponentVariantDetails {"propertyName":"variant","data":{"default":{"layout":["auto","auto"]}}}
- * @framerVariables {"haXn00h0k":"title"}
- */ const FramerfYrOFb2zP = withCSS(Component, css)
-export default FramerfYrOFb2zP
-FramerfYrOFb2zP.displayName = "Button"
-FramerfYrOFb2zP.defaultProps = { height: 39, width: 70 }
-addPropertyControls(FramerfYrOFb2zP, {
-  haXn00h0k: { defaultValue: "Hey", displayTextArea: false, title: "Title", type: ControlType.String },
+ * @framerVariables {"ATWq321bU":"title"}
+ */ const FramerqXgzhfFR2 = withCSS(Component, css)
+export default FramerqXgzhfFR2
+FramerqXgzhfFR2.displayName = "Button"
+FramerqXgzhfFR2.defaultProps = { height: 39, width: 70 }
+addPropertyControls(FramerqXgzhfFR2, {
+  ATWq321bU: { defaultValue: "Button", displayTextArea: false, title: "Title", type: ControlType.String },
 })
-addFonts(FramerfYrOFb2zP, [])
+addFonts(FramerqXgzhfFR2, [])
 export const __FramerMetadata__ = {
   exports: {
+    Props: { type: "tsType", annotations: { framerContractVersion: "1" } },
     default: {
       type: "reactComponent",
-      name: "FramerfYrOFb2zP",
+      name: "FramerqXgzhfFR2",
       slots: [],
       annotations: {
-        framerContractVersion: "1",
-        framerVariables: '{"haXn00h0k":"title"}',
-        framerIntrinsicHeight: "39",
-        framerIntrinsicWidth: "70",
         framerCanvasComponentVariantDetails: '{"propertyName":"variant","data":{"default":{"layout":["auto","auto"]}}}',
+        framerIntrinsicWidth: "70",
+        framerVariables: '{"ATWq321bU":"title"}',
+        framerContractVersion: "1",
+        framerIntrinsicHeight: "39",
       },
     },
-    Props: { type: "tsType", annotations: { framerContractVersion: "1" } },
     __FramerMetadata__: { type: "variable" },
   },
 }
-//# sourceMappingURL=./fYrOFb2zP.map
+//# sourceMappingURL=./qXgzhfFR2.map
