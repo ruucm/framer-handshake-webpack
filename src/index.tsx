@@ -9,7 +9,7 @@ import { createRoot } from "react-dom/client"
 const App = () => {
   return (
     <div>
-      Hello Framer Handshake. 👋
+      Hello Framer Handshake.2 👋
       <Button />
       <Card />
     </div>
