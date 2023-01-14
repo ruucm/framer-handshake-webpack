@@ -61,7 +61,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
       onTapStart: () => setGestureState({ isPressed: true }),
       onTap: () => setGestureState({ isPressed: false }),
       onTapCancel: () => setGestureState({ isPressed: false }),
-      className: cx("framer-6GpP4", classNames),
+      className: cx("framer-7WxVH", classNames),
       style: {
         display: "contents",
         pointerEvents: pointerEvents !== null && pointerEvents !== void 0 ? pointerEvents : undefined,
@@ -113,44 +113,45 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
   })
 })
 const css = [
-  '.framer-6GpP4 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
+  '.framer-7WxVH [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
   "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }",
-  ".framer-6GpP4 * { box-sizing: border-box; }",
-  ".framer-6GpP4 .framer-b7ijdm { display: block; }",
-  ".framer-6GpP4 .framer-2dcl3 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: hidden; padding: 20px 20px 20px 20px; position: relative; width: min-content; }",
-  ".framer-6GpP4 .framer-5qotb8 { flex: none; height: auto; position: relative; white-space: pre; width: auto; }",
-  ".framer-6GpP4 .framer-1uljwvb-container { flex: none; height: auto; position: relative; width: auto; }",
-  "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-6GpP4 .framer-2dcl3 { gap: 0px; } .framer-6GpP4 .framer-2dcl3 > * { margin: 0px; margin-bottom: calc(40px / 2); margin-top: calc(40px / 2); } .framer-6GpP4 .framer-2dcl3 > :first-child { margin-top: 0px; } .framer-6GpP4 .framer-2dcl3 > :last-child { margin-bottom: 0px; } }",
+  ".framer-7WxVH * { box-sizing: border-box; }",
+  ".framer-7WxVH .framer-b7ijdm { display: block; }",
+  ".framer-7WxVH .framer-2dcl3 { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 40px; height: min-content; justify-content: center; overflow: hidden; padding: 16px 16px 16px 16px; position: relative; width: min-content; }",
+  ".framer-7WxVH .framer-5qotb8 { flex: none; height: auto; position: relative; white-space: pre; width: auto; }",
+  ".framer-7WxVH .framer-1uljwvb-container { flex: none; height: auto; position: relative; width: auto; }",
+  "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-7WxVH .framer-2dcl3 { gap: 0px; } .framer-7WxVH .framer-2dcl3 > * { margin: 0px; margin-bottom: calc(40px / 2); margin-top: calc(40px / 2); } .framer-7WxVH .framer-2dcl3 > :first-child { margin-top: 0px; } .framer-7WxVH .framer-2dcl3 > :last-child { margin-bottom: 0px; } }",
 ]
 /**
  * This is a generated Framer component.
- * @framerIntrinsicHeight 138.5
- * @framerIntrinsicWidth 110
+ * @framerIntrinsicHeight 130.5
+ * @framerIntrinsicWidth 102
  * @framerCanvasComponentVariantDetails {"propertyName":"variant","data":{"default":{"layout":["auto","auto"]}}}
  * @framerVariables {"vAq5nDvXu":"title"}
  */ const FramerWr9Xt9HWr = withCSS(Component, css)
 export default FramerWr9Xt9HWr
 FramerWr9Xt9HWr.displayName = "Card"
-FramerWr9Xt9HWr.defaultProps = { height: 138.5, width: 110 }
+FramerWr9Xt9HWr.defaultProps = { height: 130.5, width: 102 }
 addPropertyControls(FramerWr9Xt9HWr, {
   vAq5nDvXu: { defaultValue: "Hello", displayTextArea: false, title: "Title", type: ControlType.String },
 })
 addFonts(FramerWr9Xt9HWr, [...ButtonFonts])
 export const __FramerMetadata__ = {
   exports: {
+    Props: { type: "tsType", annotations: { framerContractVersion: "1" } },
     default: {
       type: "reactComponent",
       name: "FramerWr9Xt9HWr",
       slots: [],
       annotations: {
         framerContractVersion: "1",
-        framerVariables: '{"vAq5nDvXu":"title"}',
         framerCanvasComponentVariantDetails: '{"propertyName":"variant","data":{"default":{"layout":["auto","auto"]}}}',
-        framerIntrinsicHeight: "138.5",
-        framerIntrinsicWidth: "110",
+        framerIntrinsicWidth: "102",
+        framerVariables: '{"vAq5nDvXu":"title"}',
+        framerIntrinsicHeight: "130.5",
       },
     },
-    Props: { type: "tsType", annotations: { framerContractVersion: "1" } },
     __FramerMetadata__: { type: "variable" },
   },
 }
+//# sourceMappingURL=./Wr9Xt9HWr.map
