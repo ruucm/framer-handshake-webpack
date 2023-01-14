@@ -1,8 +1,9 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import "./index.css";
+import React from "react"
+import { createRoot } from "react-dom/client"
+import "./index.css"
 
-import Button from "https://framer.com/m/Button-9Nlu.js@1AgFEz9hQs1j2aFkuyae"
+import Button from "https://framer.com/m/Button-9Nlu.js"
+import Card from "https://framer.com/m/Card-E72i.js"
 
 // buildHttp test
 // with `buildHttp` enabled, webpack will build pMap1 just like a regular local module
@@ -19,17 +20,17 @@ const App = () => {
   return (
     <div>
       Hello Framer Handshake. 👋
-
       <Button />
+      <Card />
       {/* <Toggle />
       <PRButton />
       <PRSideMenuItem />
       <SendPayslipsNowModal />
       <Hey /> */}
     </div>
-  );
-};
+  )
+}
 
-const container = document.getElementById("root");
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
-root.render(<App />);
+const container = document.getElementById("root")
+const root = createRoot(container) // createRoot(container!) if you use TypeScript
+root.render(<App />)

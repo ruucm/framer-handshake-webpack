@@ -24,7 +24,7 @@ specifiers:
   react-refresh: ^0.13.0
   sass-loader: ^12.6.0
   style-loader: ^3.3.1
-  webpack: ^5.75.0
+  webpack: https://github.com/ruucm/webpack
   webpack-cli: ^5.0.1
   webpack-dev-server: ^4.11.1
 
@@ -54,7 +54,7 @@ devDependencies:
   react-refresh: 0.13.0
   sass-loader: 12.6.0_m747edfdbufymktlnircx3mhmy
   style-loader: 3.3.1_webpack@5.75.0
-  webpack: 5.75.0_webpack-cli@5.0.1
+  webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
   webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
   webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
 
@@ -1521,7 +1521,7 @@ packages:
       react-refresh: 0.13.0
       schema-utils: 3.1.1
       source-map: 0.7.4
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
       webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
     dev: true
 
@@ -1808,7 +1808,7 @@ packages:
       webpack: 5.x.x
       webpack-cli: 5.x.x
     dependencies:
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
       webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
     dev: true
 
@@ -1819,7 +1819,7 @@ packages:
       webpack: 5.x.x
       webpack-cli: 5.x.x
     dependencies:
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
       webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
     dev: true
 
@@ -1834,7 +1834,7 @@ packages:
       webpack-dev-server:
         optional: true
     dependencies:
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
       webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
       webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
     dev: true
@@ -2084,7 +2084,7 @@ packages:
       loader-utils: 2.0.4
       make-dir: 3.1.0
       schema-utils: 2.7.1
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
     dev: true
 
   /babel-plugin-polyfill-corejs2/0.3.3_@babel+core@7.20.12:
@@ -2686,7 +2686,7 @@ packages:
       postcss-modules-values: 4.0.0_postcss@8.4.21
       postcss-value-parser: 4.2.0
       semver: 7.3.8
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
     dev: true
 
   /css-select/4.3.0:
@@ -3415,7 +3415,7 @@ packages:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.1.1
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
     dev: true
 
   /file-type/10.11.0:
@@ -4096,7 +4096,7 @@ packages:
       lodash: 4.17.21
       pretty-error: 4.0.0
       tapable: 2.2.1
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
     dev: true
 
   /htmlparser2/6.1.0:
@@ -6258,7 +6258,7 @@ packages:
       klona: 2.0.5
       neo-async: 2.6.2
       node-sass: 7.0.3
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
     dev: true
 
   /scheduler/0.23.0:
@@ -6738,7 +6738,7 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
     dev: true
 
   /style-value-types/5.1.2:
@@ -6856,7 +6856,7 @@ packages:
       schema-utils: 3.1.1
       serialize-javascript: 6.0.0
       terser: 5.16.1
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
     dev: true
 
   /terser/5.16.1:
@@ -7185,7 +7185,7 @@ packages:
       import-local: 3.1.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
       webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
       webpack-merge: 5.8.0
     dev: true
@@ -7201,7 +7201,7 @@ packages:
       mime-types: 2.1.35
       range-parser: 1.2.1
       schema-utils: 4.0.0
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
     dev: true
 
   /webpack-dev-server/4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq:
@@ -7242,7 +7242,7 @@ packages:
       serve-index: 1.9.1
       sockjs: 0.3.24
       spdy: 4.0.2
-      webpack: 5.75.0_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1
       webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
       webpack-dev-middleware: 5.3.3_webpack@5.75.0
       ws: 8.12.0
@@ -7264,47 +7264,6 @@ packages:
   /webpack-sources/3.2.3:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
-    dev: true
-
-  /webpack/5.75.0_webpack-cli@5.0.1:
-    resolution: {integrity: sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-    peerDependencies:
-      webpack-cli: '*'
-    peerDependenciesMeta:
-      webpack-cli:
-        optional: true
-    dependencies:
-      '@types/eslint-scope': 3.7.4
-      '@types/estree': 0.0.51
-      '@webassemblyjs/ast': 1.11.1
-      '@webassemblyjs/wasm-edit': 1.11.1
-      '@webassemblyjs/wasm-parser': 1.11.1
-      acorn: 8.8.1
-      acorn-import-assertions: 1.8.0_acorn@8.8.1
-      browserslist: 4.21.4
-      chrome-trace-event: 1.0.3
-      enhanced-resolve: 5.12.0
-      es-module-lexer: 0.9.3
-      eslint-scope: 5.1.1
-      events: 3.3.0
-      glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
-      json-parse-even-better-errors: 2.3.1
-      loader-runner: 4.3.0
-      mime-types: 2.1.35
-      neo-async: 2.6.2
-      schema-utils: 3.1.1
-      tapable: 2.2.1
-      terser-webpack-plugin: 5.3.6_webpack@5.75.0
-      watchpack: 2.4.0
-      webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
-      webpack-sources: 3.2.3
-    transitivePeerDependencies:
-      - '@swc/core'
-      - esbuild
-      - uglify-js
     dev: true
 
   /websocket-driver/0.7.4:
@@ -7453,4 +7412,50 @@ packages:
   /yocto-queue/0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+    dev: true
+
+  github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d_webpack-cli@5.0.1:
+    resolution: {tarball: https://codeload.github.com/ruucm/webpack/tar.gz/7b0b3bff577d6a361565d273973696a380d56b4d}
+    id: github.com/ruucm/webpack/7b0b3bff577d6a361565d273973696a380d56b4d
+    name: webpack
+    version: 5.75.0
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    prepare: true
+    requiresBuild: true
+    peerDependencies:
+      webpack-cli: '*'
+    peerDependenciesMeta:
+      webpack-cli:
+        optional: true
+    dependencies:
+      '@types/eslint-scope': 3.7.4
+      '@types/estree': 0.0.51
+      '@webassemblyjs/ast': 1.11.1
+      '@webassemblyjs/wasm-edit': 1.11.1
+      '@webassemblyjs/wasm-parser': 1.11.1
+      acorn: 8.8.1
+      acorn-import-assertions: 1.8.0_acorn@8.8.1
+      browserslist: 4.21.4
+      chrome-trace-event: 1.0.3
+      enhanced-resolve: 5.12.0
+      es-module-lexer: 0.9.3
+      eslint-scope: 5.1.1
+      events: 3.3.0
+      glob-to-regexp: 0.4.1
+      graceful-fs: 4.2.10
+      json-parse-even-better-errors: 2.3.1
+      loader-runner: 4.3.0
+      mime-types: 2.1.35
+      neo-async: 2.6.2
+      schema-utils: 3.1.1
+      tapable: 2.2.1
+      terser-webpack-plugin: 5.3.6_webpack@5.75.0
+      watchpack: 2.4.0
+      webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-sources: 3.2.3
+    transitivePeerDependencies:
+      - '@swc/core'
+      - esbuild
+      - uglify-js
     dev: true
