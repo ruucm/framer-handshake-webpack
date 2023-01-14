@@ -25,7 +25,8 @@
         ],
         "pathGroupsExcludedImportTypes": ["builtin"]
       }
-    ]
+    ],
+    "import/order": "warn"
   },
   "env": {
     "browser": true,

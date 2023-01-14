@@ -26,6 +26,7 @@ specifiers:
   framer: ^2.2.1
   framer-motion: ^8.4.2
   html-webpack-plugin: ^5.5.0
+  husky: ^8.0.3
   image-webpack-loader: ^8.1.0
   node-sass: ^7.0.1
   path: ^0.12.7
@@ -73,6 +74,7 @@ devDependencies:
   eslint-plugin-unused-imports: 2.0.0_uf7m4ztohkds2teixkkgz7tcvi
   file-loader: 6.2.0_webpack@5.75.0
   html-webpack-plugin: 5.5.0_webpack@5.75.0
+  husky: 8.0.3
   image-webpack-loader: 8.1.0
   node-sass: 7.0.3
   path: 0.12.7
@@ -4846,6 +4848,12 @@ packages:
     resolution: {integrity: sha512-Fl70vYtsAFb/C06PTS9dZBo7ihau+Tu/DNCk/OyHhea07S+aeMWpFFkUaXRa8fI+ScZbEI8dfSxwY7gxZ9SAVQ==}
     dependencies:
       ms: 2.1.3
+    dev: true
+
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /iconv-lite/0.4.24:
