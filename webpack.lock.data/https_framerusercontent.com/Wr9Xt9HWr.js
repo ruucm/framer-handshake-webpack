@@ -2,7 +2,7 @@
 import * as React from "react"
 import { addFonts, addPropertyControls, ControlType, cx, getFonts, RichText, useVariantState, withCSS } from "framer"
 import { LayoutGroup, motion } from "framer-motion"
-import Button from "https://framerusercontent.com/modules/BNGMh2t5DNmqq1vrkPLC/5ttidHcoLtAdE8c2NNjl/qXgzhfFR2.js"
+import Button from "https://framerusercontent.com/modules/BNGMh2t5DNmqq1vrkPLC/cw4DXJXcH7gZStyODmyN/qXgzhfFR2.js"
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime"
 const ButtonFonts = getFonts(Button)
 const cycleOrder = ["GdTSSLOkM"]
