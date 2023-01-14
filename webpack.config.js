@@ -5,7 +5,7 @@ const ReactRefreshPlugin = require("@pmmmwh/react-refresh-webpack-plugin")
 const isDevelopment = process.env.NODE_ENV !== "production"
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index.tsx",
   output: { path: path.join(__dirname, "build"), filename: "index.bundle.js" },
   mode: process.env.NODE_ENV || "development",
   resolve: {
