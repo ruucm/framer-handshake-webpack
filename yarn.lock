@@ -7516,9 +7516,9 @@ webpack-sources@^3.2.3:
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
-"webpack@git+https://github.com/ruucm/webpack.git#custom-build-http-0.1.2":
+"webpack@git+https://github.com/ruucm/webpack.git#custom-build-http-0.1.4":
   version "5.75.0"
-  resolved "git+https://github.com/ruucm/webpack.git#3d88c4b33ff05f4a29f2585cf1afd58bbd38387f"
+  resolved "git+https://github.com/ruucm/webpack.git#bbc6ea30f1be50b8dcf87cb6e6ef82a40d9fb2dc"
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"

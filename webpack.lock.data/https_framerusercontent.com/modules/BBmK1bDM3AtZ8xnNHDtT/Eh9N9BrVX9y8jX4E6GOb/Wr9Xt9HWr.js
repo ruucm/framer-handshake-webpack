@@ -11,7 +11,7 @@ import {
   withCSS,
 } from "framer";
 import { LayoutGroup, motion } from "framer-motion";
-import Button from "https://framerusercontent.com/modules/BNGMh2t5DNmqq1vrkPLC/eAG5SRk8YBh0qdYp2zkS/qXgzhfFR2.js";
+import Button from "https://framerusercontent.com/modules/BNGMh2t5DNmqq1vrkPLC/dMt4upnel4JkUDLLIvMw/qXgzhfFR2.js";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 const ButtonFonts = getFonts(Button);
 const cycleOrder = ["GdTSSLOkM"];

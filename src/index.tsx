@@ -3,7 +3,7 @@ import "./index.css";
 
 // import pMap1 from "https://cdn.skypack.dev/p-map"
 import Button from "https://framer.com/m/Button-KYsw.js";
-import ButtonUpdated from "https://framer.com/m/Button-KYsw.js@4sUK0T4vPhJqXGkVOrjA";
+import ButtonUpdated from "https://framer.com/m/Button-KYsw.js@GYxnYzFoSl1pX5zmghq4";
 import Card from "https://framer.com/m/Card-I9LQ.js";
 import { createRoot } from "react-dom/client";
 
