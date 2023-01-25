@@ -79,7 +79,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
       onTapStart: () => setGestureState({ isPressed: true }),
       onTap: () => setGestureState({ isPressed: false }),
       onTapCancel: () => setGestureState({ isPressed: false }),
-      className: cx("framer-EpKUj", classNames),
+      className: cx("framer-MeH29", classNames),
       style: {
         display: "contents",
         pointerEvents:
@@ -94,7 +94,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
         layoutDependency: layoutDependency,
         layoutId: "xiGuWN4uU",
         ref: ref,
-        style: { backgroundColor: "rgb(204, 255, 216)", ...style },
+        style: { backgroundColor: "rgb(255, 204, 239)", ...style },
         transition: transition,
         children: /*#__PURE__*/ _jsx(RichText, {
           __fromCanvasComponent: true,
@@ -119,13 +119,13 @@ const Component = /*#__PURE__*/ React.forwardRef(function (
   });
 });
 const css = [
-  '.framer-EpKUj [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
+  '.framer-MeH29 [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
   "@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }",
-  ".framer-EpKUj * { box-sizing: border-box; }",
-  ".framer-EpKUj .framer-35ht8p { display: block; }",
-  ".framer-EpKUj .framer-mxz3uw { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 10px 10px 10px 10px; position: relative; width: min-content; }",
-  ".framer-EpKUj .framer-1ltwh8a { flex: none; height: auto; position: relative; white-space: pre; width: auto; }",
-  "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-EpKUj .framer-mxz3uw { gap: 0px; } .framer-EpKUj .framer-mxz3uw > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-EpKUj .framer-mxz3uw > :first-child { margin-left: 0px; } .framer-EpKUj .framer-mxz3uw > :last-child { margin-right: 0px; } }",
+  ".framer-MeH29 * { box-sizing: border-box; }",
+  ".framer-MeH29 .framer-35ht8p { display: block; }",
+  ".framer-MeH29 .framer-mxz3uw { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 10px 10px 10px 10px; position: relative; width: min-content; }",
+  ".framer-MeH29 .framer-1ltwh8a { flex: none; height: auto; position: relative; white-space: pre; width: auto; }",
+  "@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-MeH29 .framer-mxz3uw { gap: 0px; } .framer-MeH29 .framer-mxz3uw > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-MeH29 .framer-mxz3uw > :first-child { margin-left: 0px; } .framer-MeH29 .framer-mxz3uw > :last-child { margin-right: 0px; } }",
 ];
 /**
  * This is a generated Framer component.
@@ -148,20 +148,20 @@ addPropertyControls(FramerqXgzhfFR2, {
 addFonts(FramerqXgzhfFR2, []);
 export const __FramerMetadata__ = {
   exports: {
-    Props: { type: "tsType", annotations: { framerContractVersion: "1" } },
     default: {
       type: "reactComponent",
       name: "FramerqXgzhfFR2",
       slots: [],
       annotations: {
         framerIntrinsicHeight: "39",
+        framerContractVersion: "1",
         framerCanvasComponentVariantDetails:
           '{"propertyName":"variant","data":{"default":{"layout":["auto","auto"]}}}',
-        framerContractVersion: "1",
         framerVariables: '{"ATWq321bU":"title"}',
         framerIntrinsicWidth: "70",
       },
     },
+    Props: { type: "tsType", annotations: { framerContractVersion: "1" } },
     __FramerMetadata__: { type: "variable" },
   },
 };
