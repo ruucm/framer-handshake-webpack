@@ -1,8 +1,8 @@
-const path = require("path")
-const HtmlWebpackPlugin = require("html-webpack-plugin")
-const ReactRefreshPlugin = require("@pmmmwh/react-refresh-webpack-plugin")
+const path = require("path");
+const ReactRefreshPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-const isDevelopment = process.env.NODE_ENV !== "production"
+const isDevelopment = process.env.NODE_ENV !== "production";
 
 module.exports = {
   entry: "./src/index.tsx",
@@ -35,7 +35,8 @@ module.exports = {
     ],
   },
   plugins: [
-    isDevelopment && new ReactRefreshPlugin({ exclude: [/^http.*/, /node_modules/] }),
+    isDevelopment &&
+      new ReactRefreshPlugin({ exclude: [/^http.*/, /node_modules/] }),
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "index.html"),
     }),
@@ -50,6 +51,7 @@ module.exports = {
         "https://jspm.dev/",
         "https://cdn.skypack.dev/",
       ],
+      keepVersions: false,
     },
   },
-}
+};

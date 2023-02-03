@@ -39,7 +39,7 @@ specifiers:
   style-loader: ^3.3.1
   ts-loader: ^9.4.2
   typescript: ^4.9.4
-  webpack: git+https://github.com/ruucm/webpack.git#custom-build-http-0.1.3
+  webpack: git+https://github.com/ruucm/webpack.git#custom-build-http-0.1.6
   webpack-cli: ^5.0.1
   webpack-dev-server: ^4.11.1
 
@@ -84,7 +84,7 @@ devDependencies:
   style-loader: 3.3.1_webpack@5.75.0
   ts-loader: 9.4.2_3fkjkrd3audxnith3e7fo4fnxi
   typescript: 4.9.4
-  webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+  webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
   webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
   webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
 
@@ -1588,7 +1588,7 @@ packages:
       react-refresh: 0.13.0
       schema-utils: 3.1.1
       source-map: 0.7.4
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
       webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
     dev: true
 
@@ -2034,7 +2034,7 @@ packages:
       webpack: 5.x.x
       webpack-cli: 5.x.x
     dependencies:
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
       webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
     dev: true
 
@@ -2045,7 +2045,7 @@ packages:
       webpack: 5.x.x
       webpack-cli: 5.x.x
     dependencies:
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
       webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
     dev: true
 
@@ -2060,7 +2060,7 @@ packages:
       webpack-dev-server:
         optional: true
     dependencies:
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
       webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
       webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
     dev: true
@@ -2363,7 +2363,7 @@ packages:
       loader-utils: 2.0.4
       make-dir: 3.1.0
       schema-utils: 2.7.1
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
     dev: true
 
   /babel-plugin-polyfill-corejs2/0.3.3_@babel+core@7.20.12:
@@ -2970,7 +2970,7 @@ packages:
       postcss-modules-values: 4.0.0_postcss@8.4.21
       postcss-value-parser: 4.2.0
       semver: 7.3.8
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
     dev: true
 
   /css-select/4.3.0:
@@ -4000,7 +4000,7 @@ packages:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.1.1
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
     dev: true
 
   /file-type/10.11.0:
@@ -4723,7 +4723,7 @@ packages:
       lodash: 4.17.21
       pretty-error: 4.0.0
       tapable: 2.2.1
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
     dev: true
 
   /htmlparser2/6.1.0:
@@ -7054,7 +7054,7 @@ packages:
       klona: 2.0.5
       neo-async: 2.6.2
       node-sass: 7.0.3
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
     dev: true
 
   /scheduler/0.23.0:
@@ -7557,7 +7557,7 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
     dev: true
 
   /style-value-types/5.1.2:
@@ -7675,7 +7675,7 @@ packages:
       schema-utils: 3.1.1
       serialize-javascript: 6.0.0
       terser: 5.16.1
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
     dev: true
 
   /terser/5.16.1:
@@ -7769,7 +7769,7 @@ packages:
       micromatch: 4.0.5
       semver: 7.3.8
       typescript: 4.9.4
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
     dev: true
 
   /tsconfig-paths/3.14.1:
@@ -8064,7 +8064,7 @@ packages:
       import-local: 3.1.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
       webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
       webpack-merge: 5.8.0
     dev: true
@@ -8080,7 +8080,7 @@ packages:
       mime-types: 2.1.35
       range-parser: 1.2.1
       schema-utils: 4.0.0
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
     dev: true
 
   /webpack-dev-server/4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq:
@@ -8121,7 +8121,7 @@ packages:
       serve-index: 1.9.1
       sockjs: 0.3.24
       spdy: 4.0.2
-      webpack: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1
+      webpack: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1
       webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
       webpack-dev-middleware: 5.3.3_webpack@5.75.0
       ws: 8.12.0
@@ -8298,9 +8298,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7_webpack-cli@5.0.1:
-    resolution: {tarball: https://codeload.github.com/ruucm/webpack/tar.gz/b41a31b4d5a58bf8f26e43260df75104f81d51c7}
-    id: github.com/ruucm/webpack/b41a31b4d5a58bf8f26e43260df75104f81d51c7
+  github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067_webpack-cli@5.0.1:
+    resolution: {tarball: https://codeload.github.com/ruucm/webpack/tar.gz/4fbfa60f098296de5c4ceb3d35709215ef6a5067}
+    id: github.com/ruucm/webpack/4fbfa60f098296de5c4ceb3d35709215ef6a5067
     name: webpack
     version: 5.75.0
     engines: {node: '>=10.13.0'}
